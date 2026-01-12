@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">Logo</a></div>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="list.html">Projectes</a></li>
+                <li><a href="form.html" class="active">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <aside class="contact-info">
+                <h3>Ubicació</h3>
+                <p>Barcelona, Espanya</p>
+                <h3>Email</h3>
+                <p>hola@exemple.com</p>
+                <h3>Xarxes Socials</h3>
+                <p>@usuari</p>
+                <img src="https://placehold.co/200" alt="Imatge decorativa" style="margin-top:20px; width:100%">
+            </aside>
+
+            <section class="contact-form-wrapper">
+                <h2>Tens alguna pregunta?</h2>
+                <form id="contactForm">
+                    <label for="name">El teu nom:</label>
+                    <input type="text" id="name" name="name" required placeholder="Nom complet">
+
+                    <label for="email">Adreça electrònica:</label>
+                    <input type="email" id="email" name="email" required placeholder="nom@correu.com">
+
+                    <label for="phone">Telèfon:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" placeholder="666555444" title="Introdueix 9 dígits sense espais">
+
+                    <label for="subject">Assumpte:</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Missatge:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="btn submit-btn">Enviar</button>
+                </form>
+
+                <div id="form-feedback" style="display:none; margin-top:15px; border: 1px solid black; padding: 10px;">
+                    Et contestaré el més aviat possible. Gràcies per contactar! :)
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">&copy; <span id="year"></span> El Meu Portfoli</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

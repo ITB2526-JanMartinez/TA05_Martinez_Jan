@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfoli personal de disseny web">
+    <title>Inici - El Meu Portfoli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Logo (Home)</div>
+        <div class="header-title">Benvingut al meu Portfoli</div>
+        <nav>
+            <button id="menu-toggle">☰ Menú</button>
+            <ul id="nav-list">
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="list.html">Projectes</a></li>
+                <li><a href="form.html">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <article class="intro-content">
+                <div class="intro-img">
+                    <img src="https://placehold.co/300" alt="Foto de perfil">
+                </div>
+                <div class="intro-text">
+                    <h1>Hola, sóc [El Teu Nom]</h1>
+                    <p>Aquesta és una breu introducció sobre mi. Sóc un apassionat del desenvolupament web i aquí podràs veure els meus treballs.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="featured-projects">
+            <h2>Projectes Destacats</h2>
+            <div class="projects-container">
+                <article class="project-card">
+                    <h3>Projecte 1</h3>
+                    <img src="https://tradetankmx.com/wp-content/uploads/2019/06/AIimage-e1560142540681.png" alt="Imatge Projecte 1">
+                    <p>Breu descripció del projecte 1.</p>
+                    <a href="project1.html" class="btn">Veure Detall</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Projecte 2</h3>
+                    <img src="https://static6.depositphotos.com/1036039/628/v/450/depositphotos_6288572-stock-illustration-technology-planet-vector-illustration.jpg" alt="Imatge Projecte 2">
+                    <p>Breu descripció del projecte 2.</p>
+                    <a href="project2.html" class="btn">Veure Detall</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="social-links">
+                <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+            </div>
+            <div class="footer-text">Gràcies per visitar-me</div>
+            <div class="footer-menu">
+                <a href="index.html">Inici</a> | <a href="form.html">Contacte</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; <span id="year"></span> El Meu Portfoli. Tots els drets reservats.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
