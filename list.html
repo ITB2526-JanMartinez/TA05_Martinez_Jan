@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects</title>
+    <title>My Projects - Full Catalog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo"><a href="index.html">JMP</a></div>
         <nav>
+            <button id="menu-toggle">☰ Menu</button>
             <ul id="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="list.html" class="active">Projects</a></li>
@@ -20,33 +21,189 @@
 
     <main>
         <section class="projects-list">
-            <h1>My Portfolio</h1>
+            <h1>My Projects Catalog</h1>
             <div class="grid-container">
 
                 <article class="grid-item">
                     <h3>Server Rack UPS</h3>
-                    <img src="https://images.unsplash.com/photo-1558494949-ef526b0042a0?w=400&auto=format&fit=crop&q=60" alt="UPS">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=500&q=60" alt="UPS">
                     <p>Installation and configuration of power backup systems.</p>
                     <a href="project1.html" class="btn small">View More</a>
                 </article>
 
                 <article class="grid-item">
                     <h3>Secure Network</h3>
-                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bbcbf?w=400&auto=format&fit=crop&q=60" alt="Network">
+                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bbcbf?auto=format&fit=crop&w=500&q=60" alt="Network">
                     <p>VLAN segmentation and Firewall implementation.</p>
                     <a href="project2.html" class="btn small">View More</a>
                 </article>
 
                 <article class="grid-item">
                     <h3>Linux Server Hardening</h3>
-                    <img src="https://placehold.co/400x250/1e1e1e/03dac6?text=Linux+Hardening" alt="Linux">
+                    <img src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=500&q=60" alt="Linux Console">
                     <p>Securing Ubuntu servers using SSH keys and Fail2Ban.</p>
                 </article>
 
                 <article class="grid-item">
                     <h3>Python Automation</h3>
-                    <img src="https://placehold.co/400x250/1e1e1e/03dac6?text=Python+Scripting" alt="Python">
-                    <p>Scripts for automated backup and log analysis.</p>
+                    <img src="https://images.unsplash.com/photo-1649180556628-9ba704115795?auto=format&fit=crop&w=500&q=60" alt="Python Code">
+                    <p>Developing scripts for automated system maintenance.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Docker Containerization</h3>
+                    <img src="https://images.unsplash.com/photo-1605745341112-85968b19335b?auto=format&fit=crop&w=500&q=60" alt="Docker Containers">
+                    <p>Deploying web applications in isolated containers.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Kubernetes Cluster</h3>
+                    <img src="https://images.unsplash.com/photo-1667372393119-c85c02068167?auto=format&fit=crop&w=500&q=60" alt="Kubernetes">
+                    <p>Orchestrating microservices with a K8s cluster.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>AWS Cloud Migration</h3>
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=500&q=60" alt="Cloud Server">
+                    <p>Migrating on-premise servers to AWS EC2 instances.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Azure AD Integration</h3>
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=500&q=60" alt="Digital Identity">
+                    <p>Implementing Single Sign-On (SSO) with Azure AD.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Zabbix Monitoring</h3>
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=60" alt="Monitoring Dashboard">
+                    <p>Setting up Zabbix for real-time server monitoring.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>IDS Implementation</h3>
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=500&q=60" alt="Code Security">
+                    <p>Configuring an Intrusion Detection System.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>OpenVPN Server</h3>
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=500&q=60" alt="Encryption">
+                    <p>Creating a secure remote access solution with OpenVPN.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Active Directory Ops</h3>
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=500&q=60" alt="Office Network">
+                    <p>Managing users, groups, and GPOs in Windows Server.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>PowerShell Automation</h3>
+                    <img src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=500&q=60" alt="Terminal">
+                    <p>Writing PS scripts for bulk administration tasks.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Bash Backup Scripts</h3>
+                    <img src="https://images.unsplash.com/photo-1607799275518-d6e690c7b0e9?auto=format&fit=crop&w=500&q=60" alt="Console Code">
+                    <p>Automating database backups on Linux systems.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Web Server Hardening</h3>
+                    <img src="https://images.unsplash.com/photo-1562813733-b31f71025d54?auto=format&fit=crop&w=500&q=60" alt="Lock">
+                    <p>Securing Nginx with SSL/TLS and security headers.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Database Security</h3>
+                    <img src="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?auto=format&fit=crop&w=500&q=60" alt="Database">
+                    <p>Implementing access controls and encryption for MySQL.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>IoT Security Assessment</h3>
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=60" alt="IoT Chip">
+                    <p>Analyzing vulnerabilities in IoT devices on a local network.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Wi-Fi Network Auditing</h3>
+                    <img src="https://images.unsplash.com/photo-1563203369-26f2e4a5ccf7?auto=format&fit=crop&w=500&q=60" alt="Wifi">
+                    <p>Assessing the security of wireless network protocols.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Pen Testing Lab</h3>
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=500&q=60" alt="Hacker Lab">
+                    <p>Building a safe environment for ethical hacking practice.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Vulnerability Scanning</h3>
+                    <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=500&q=60" alt="Scan Data">
+                    <p>Using Nessus to identify system weaknesses.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Incident Response</h3>
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=500&q=60" alt="Emergency">
+                    <p>Developing a procedure for handling cybersecurity incidents.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Data Loss Prevention</h3>
+                    <img src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?auto=format&fit=crop&w=500&q=60" alt="Data Lock">
+                    <p>Implementing policies to prevent sensitive data exfiltration.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Email Security</h3>
+                    <img src="https://images.unsplash.com/photo-1557568192-2fa698f7d169?auto=format&fit=crop&w=500&q=60" alt="Email">
+                    <p>Configuring spam filters and phishing protection.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>EDR Implementation</h3>
+                    <img src="https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=500&q=60" alt="Radar">
+                    <p>Deploying EDR solutions for real-time endpoint monitoring.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>SIEM Implementation</h3>
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=60" alt="Data Logs">
+                    <p>Setting up a SIEM for centralized log management.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Firewall Optimization</h3>
+                    <img src="https://images.unsplash.com/photo-1563206767-5b1d972eefab?auto=format&fit=crop&w=500&q=60" alt="Firewall">
+                    <p>Auditing and refining firewall rules for better performance.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Secure Remote Access</h3>
+                    <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=500&q=60" alt="Remote">
+                    <p>Configuring secure SSH and RDP access with MFA.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Proxmox Virtualization</h3>
+                    <img src="https://images.unsplash.com/photo-1597852074816-d933c7d2b988?auto=format&fit=crop&w=500&q=60" alt="Servers">
+                    <p>Setting up a Proxmox VE server for VM management.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Backup Strategy Design</h3>
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=500&q=60" alt="Hard Drives">
+                    <p>Designing a 3-2-1 backup strategy for corporate data.</p>
+                </article>
+
+                <article class="grid-item">
+                    <h3>Disaster Recovery</h3>
+                    <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=500&q=60" alt="Business Plan">
+                    <p>Creating a DRP to ensure business continuity.</p>
                 </article>
 
             </div>
