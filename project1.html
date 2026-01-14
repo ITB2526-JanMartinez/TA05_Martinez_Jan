@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projecte 1 - Detall</title>
+    <title>UPS Installation - Project Detail</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo"><a href="index.html">Logo</a></div>
+        <div class="logo"><a href="index.html">JMP</a></div>
         <nav>
+            <button id="menu-toggle">☰ Menu</button>
             <ul id="nav-list">
-                <li><a href="index.html">Inici</a></li>
-                <li><a href="list.html">Projectes</a></li>
-                <li><a href="form.html">Contacte</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="list.html" class="active">Projects</a></li>
+                <li><a href="form.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -21,31 +22,39 @@
     <main class="project-detail">
         <section class="detail-top">
             <div class="detail-img">
-                <img src="https://placehold.co/400" alt="Imatge Principal Projecte">
+                <img src="https://images.unsplash.com/photo-1558494949-ef526b0042a0?w=800&auto=format&fit=crop&q=60" alt="UPS Installation">
             </div>
             <div class="detail-intro">
-                <h1>Títol del Projecte 1</h1>
-                <p>Introducció curta sobre de què tracta aquest projecte i les tecnologies utilitzades.</p>
+                <h1>UPS Planning & Installation</h1>
+                <p>A critical infrastructure project focused on power management and hardware protection within a corporate server room.</p>
             </div>
         </section>
 
         <section class="detail-description">
-            <h2>Descripció del Projecte</h2>
-            <p>Aquí va tota l'explicació llarga del projecte. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2>Project Description</h2>
+            <p>This project involved the end-to-end management of a <strong>Uninterruptible Power Supply (UPS)</strong> installation for the company's main rack.</p>
+            <br>
+            <h3>Key Responsibilities:</h3>
+            <ul style="margin-left: 20px; margin-top: 10px; color: var(--text-secondary);">
+                <li><strong>Load Analysis:</strong> Calculated the power consumption of all servers and switches to select the correct UPS capacity.</li>
+                <li><strong>Rack Planning:</strong> Reorganized the rack layout to accommodate the heavy UPS units at the bottom for stability.</li>
+                <li><strong>Installation:</strong> Physical mounting and cabling of the units.</li>
+                <li><strong>Configuration:</strong> Set up network management cards for remote monitoring and configured graceful shutdown scripts for connected servers in case of power failure.</li>
+            </ul>
         </section>
 
         <section class="detail-gallery">
-            <img src="https://placehold.co/400" alt="Detall 1">
-            <img src="https://placehold.co/400" alt="Detall 2">
+            <img src="https://placehold.co/600x400/1e1e1e/03dac6?text=Rack+Diagram" alt="Rack Diagram">
+            <img src="https://placehold.co/600x400/1e1e1e/03dac6?text=Power+Config" alt="Power Config Screen">
         </section>
 
         <div style="text-align:center; margin-top:20px;">
-            <a href="list.html" class="btn">Tornar al llistat</a>
+            <a href="list.html" class="btn">Back to Projects</a>
         </div>
     </main>
 
     <footer>
-        <div class="copyright">&copy; <span id="year"></span> El Meu Portfoli</div>
+        <div class="copyright">&copy; <span id="year"></span> Jan Martínez Polo</div>
     </footer>
     <script src="script.js"></script>
 </body>

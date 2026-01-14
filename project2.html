@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projecte 2 - Detall</title>
+    <title>Network Security - Project Detail</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo"><a href="index.html">Logo</a></div>
+        <div class="logo"><a href="index.html">JMP</a></div>
         <nav>
-            <button id="menu-toggle">☰ Menú</button>
+            <button id="menu-toggle">☰ Menu</button>
             <ul id="nav-list">
-                <li><a href="index.html">Inici</a></li>
-                <li><a href="list.html">Projectes</a></li>
-                <li><a href="form.html">Contacte</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="list.html" class="active">Projects</a></li>
+                <li><a href="form.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -22,39 +22,39 @@
     <main class="project-detail">
         <section class="detail-top">
             <div class="detail-img">
-                <img src="https://static6.depositphotos.com/1036039/628/v/450/depositphotos_6288572-stock-illustration-technology-planet-vector-illustration.jpg" alt="Imatge Projecte 2">
+                <img src="https://images.unsplash.com/photo-1544197150-b99a580bbcbf?w=800&auto=format&fit=crop&q=60" alt="Cybersecurity">
             </div>
             <div class="detail-intro">
-                <h1>Projecte 2: Tecnologia Planeta</h1>
-                <p>Aquesta és la introducció del Projecte 2. Un projecte centrat en la innovació tecnològica.</p>
+                <h1>Secure Network Infrastructure</h1>
+                <p>Designing a segmented network architecture to improve security posture using VLANs and Next-Generation Firewalls.</p>
             </div>
         </section>
 
         <section class="detail-description">
-            <h2>Descripció Completa</h2>
-            <p>Aquí va tota l'explicació llarga del projecte 2. Explicació de les funcionalitats, reptes tècnics i solucions adoptades durant el desenvolupament.</p>
+            <h2>Project Description</h2>
+            <p>In this academic project, I designed a secure network topology to mitigate internal threats and optimize traffic flow.</p>
+            <br>
+            <h3>Technical Implementation:</h3>
+            <ul style="margin-left: 20px; margin-top: 10px; color: var(--text-secondary);">
+                <li><strong>Network Segmentation:</strong> Created distinct VLANs for Management, Employee Data, VoIP, and Guest Wi-Fi.</li>
+                <li><strong>Firewall Configuration:</strong> Deployed a pfSense firewall with strict ACLs (Access Control Lists) to restrict inter-VLAN routing.</li>
+                <li><strong>VPN Access:</strong> Configured OpenVPN for secure remote access for IT administrators.</li>
+                <li><strong>Intrusion Detection:</strong> Enabled Snort IDS to monitor suspicious traffic patterns.</li>
+            </ul>
         </section>
 
         <section class="detail-gallery">
-            <img src="https://placehold.co/400" alt="Detall P2 1">
-            <img src="https://placehold.co/400" alt="Detall P2 2">
+            <img src="https://placehold.co/600x400/1e1e1e/03dac6?text=Topology+Map" alt="Network Topology">
+            <img src="https://placehold.co/600x400/1e1e1e/03dac6?text=Firewall+Rules" alt="Firewall Rules">
         </section>
 
         <div style="text-align:center; margin-top:20px;">
-            <a href="list.html" class="btn">Tornar al llistat</a>
+            <a href="list.html" class="btn">Back to Projects</a>
         </div>
     </main>
 
     <footer>
-        <div class="footer-top">
-            <div class="social-links">
-                <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
-            </div>
-            <div class="footer-menu">
-                <a href="index.html">Inici</a> | <a href="form.html">Contacte</a>
-            </div>
-        </div>
-        <div class="copyright">&copy; <span id="year"></span> El Meu Portfoli</div>
+        <div class="copyright">&copy; <span id="year"></span> Jan Martínez Polo</div>
     </footer>
     <script src="script.js"></script>
 </body>
