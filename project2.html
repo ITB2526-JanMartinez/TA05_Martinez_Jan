@@ -1,48 +1,61 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projecte 2</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecte 2 - Detall</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<div class="logo">LOGO</div>
-<nav class="menu">
-<a href="index.html">Inici</a>
-<a href="list.html">Projectes</a>
-<a href="form.html">Contacte</a>
-</nav>
-</header>
+    <header>
+        <div class="logo"><a href="index.html">Logo</a></div>
+        <nav>
+            <button id="menu-toggle">☰ Menú</button>
+            <ul id="nav-list">
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="list.html">Projectes</a></li>
+                <li><a href="form.html">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main class="project-detail">
+        <section class="detail-top">
+            <div class="detail-img">
+                <img src="https://static6.depositphotos.com/1036039/628/v/450/depositphotos_6288572-stock-illustration-technology-planet-vector-illustration.jpg" alt="Imatge Projecte 2">
+            </div>
+            <div class="detail-intro">
+                <h1>Projecte 2: Tecnologia Planeta</h1>
+                <p>Aquesta és la introducció del Projecte 2. Un projecte centrat en la innovació tecnològica.</p>
+            </div>
+        </section>
 
-<section class="project-hero">
-<div class="hero-image"></div>
-<div class="hero-text">
-<h1>Projecte 2</h1>
-<p>Introducció al projecte 2.</p>
-</div>
-</section>
+        <section class="detail-description">
+            <h2>Descripció Completa</h2>
+            <p>Aquí va tota l'explicació llarga del projecte 2. Explicació de les funcionalitats, reptes tècnics i solucions adoptades durant el desenvolupament.</p>
+        </section>
 
+        <section class="detail-gallery">
+            <img src="https://placehold.co/400" alt="Detall P2 1">
+            <img src="https://placehold.co/400" alt="Detall P2 2">
+        </section>
 
-<section class="project-description">
-<h2>Descripció completa</h2>
-<p>[Text complert del projecte 2...]</p>
-</section>
+        <div style="text-align:center; margin-top:20px;">
+            <a href="list.html" class="btn">Tornar al llistat</a>
+        </div>
+    </main>
 
-
-<section class="project-gallery">
-<div class="gallery-img"></div>
-<div class="gallery-img"></div>
-</section>
-
-
-<footer>
-<div class="social">Xarxes socials</div>
-<div class="footer-center">Footer</div>
-<nav class="menu"> <a href="list.html">Projectes</a> </nav>
-<div class="copyright">© 2025 Jan Martínez</div>
-</footer>
+    <footer>
+        <div class="footer-top">
+            <div class="social-links">
+                <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+            </div>
+            <div class="footer-menu">
+                <a href="index.html">Inici</a> | <a href="form.html">Contacte</a>
+            </div>
+        </div>
+        <div class="copyright">&copy; <span id="year"></span> El Meu Portfoli</div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
